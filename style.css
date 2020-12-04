@@ -1,0 +1,378 @@
+/* Here are my edits to the bootstrap CSS*/
+.body-div{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+}
+
+
+/* NAVBAR STYLING */
+.navbar{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    background: linear-gradient(rgb(32, 32, 32, .99) 38%,rgb(32, 32, 32, 0));
+    z-index: 4;
+}
+
+#navstuff{
+    position: fixed;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 260px;
+}
+
+
+.bbicon img{
+    padding-left: 30px;
+    padding-top: 3px;
+    height: 90px;
+    width: 120px;
+}
+
+.nav-dropdown{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.content-title{
+    text-decoration: none;
+    color: white;
+}
+
+.content-title:hover{
+    transition-duration: .5s;
+    opacity: .6;
+    text-decoration: none;
+    color: #ffbb00;
+}
+
+.book-now{
+    border: 1px solid #ffbb00;
+    height: 40px;
+    width: 130px;
+    padding-top: 6px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#book-link{
+    text-decoration: none;
+    color:	#ffbb00;
+}
+
+.nav-dropdown:hover .dropdownStuff{
+    display: block;
+    transition-duration: 1s;
+    background-color: rgba(79, 78, 78, 0.703);
+    border-radius: 5px;
+  }
+
+  .dropClick:hover {
+    color: #ffbb00;
+    text-decoration: none;
+    opacity: .6;
+    transition-duration: .5s;
+  }
+
+  .dropClick {
+    color: white;
+    text-decoration: none;
+  }
+
+  .content-title{
+      color: white;
+  }
+
+  .dropdownStuff a{
+      color: white;
+      padding-right: 40px;
+      padding-bottom: 25px;
+      text-decoration: none;
+      height: 15px;
+
+  }
+
+  .dropdownStuff a:hover{
+      width: 100%;
+      opacity: .6;
+      transition-duration: .5s;
+      text-decoration: none;
+      color: #ffbb00;
+  }
+
+.dropdownStuff{
+    padding-top: 10px;
+    text-align:left;
+    color: white;
+    display: none; 
+    position: absolute;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdownStuff li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#imageSlides{
+    height: 400px;
+    width: 100%;
+}
+.carousel-inner{
+    height: 550px;
+    padding-bottom: 30px;
+    width: 100%;
+    /* border-bottom: 1px solid #ffbb00; */
+}
+
+
+.info{
+    color: white;
+    height: auto;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.info p{
+    opacity: .8;
+}
+
+.beer-info{
+    /* height: 550px; */
+    height: auto;
+    padding-top: 30px;
+    width: 100%;
+
+}
+
+#gardenfeatures{
+    padding-left: 40px;
+    text-align: center;
+    align-content: center;
+    color: white;
+
+}
+
+#gardenfeatures h3{
+    padding-left: 50px;
+}
+
+#gardenstuff{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ffbb00;
+    height: auto;
+}
+
+#gardenfeatures li{
+    list-style-type: none;
+    font-size: 19px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+#gardenfeatures li i{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#beerpic{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid #ffbb00;
+}
+#igloos{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 1px solid #ffbb00;
+}
+
+#perks{
+    padding-top: 40px;
+    color: white; 
+    text-align: center;
+    height: auto;
+    padding-left: 180px;
+    padding-right: 280px;
+}
+
+#amenities{
+    padding-top: 30px;
+    color: white; 
+    text-align: center;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+#amenities i{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#amenities li{
+    padding-right: 40px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+#mapandsocial{
+    padding-top: 15px;
+    align-content: center;
+    text-align: center;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+
+#bed{
+    height: 40px;
+}
+
+#mapSection{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 500px;
+}
+
+#perkrow{
+    height: auto;
+}
+
+#socialMedia{
+    padding-top: 40px;
+    color: white;
+    height: 500px;
+}
+
+#socialMedia i{
+    padding-top: 25px;
+}
+
+#logo{
+    height: 100px;
+    width: 100px
+}
+
+i{
+    margin: 10px;
+    color: #ffbb00;
+}
+
+label{
+    color: white;
+}
+#email{
+    width: 400px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.771);
+    border-radius: 5px;
+}
+
+#subject{
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.771);
+    border-radius: 5px;
+
+
+}
+
+#message{
+    width: 400px;
+    margin-top: 10px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.771);
+    border-radius: 5px;
+
+}
+
+#submit{
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+#submit:active{
+    color: #ffbb00; 
+}
+
+.more{
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.more img{
+    height: 80px;   
+    width: 105px;
+}
+.more a{
+    color: white;
+    text-decoration: none;
+}
+
+.more a:hover{
+    color: #ffbb00;
+    opacity: .6;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.more .bbicon img{
+    padding-left: 0px;
+    height: 80px;
+    width: auto;
+}
+
+.more li{
+    opacity: .6;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .body-div{
+        width: 150%;
+    }
+    .more{
+        margin-left: 40%;
+    }
+    }
+
+@media screen and (max-width: 370px) {
+  .body-div{
+      width: 200%;
+  }
+  iframe{
+      width: 90%;
+  }
+  .more{
+      margin-left: 40%;
+  }
+
+  .content-title{
+      display: none;
+  }
+  }
